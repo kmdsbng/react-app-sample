@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ReactHookFormSample from "./react-hook-form-sample";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ReactHookFormSample />
   </React.StrictMode>,
   document.getElementById('root')
 );
